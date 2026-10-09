@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="container">
+        <header class="glass-card">
+            <h1>My Personal Profile</h1>
+            <p>Welcome to my portfolio</p>
+        </header>
+
+        <main>
+            <section id="about" class="glass-card">
+                <h2>About Me</h2>
+                <p>Hello! I am a B.Tech AI & DS student at KPRIET. I am passionate about artificial intelligence, data science, and web development.</p>
+            </section>
+
+            <section id="skills" class="glass-card">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">Machine Learning</div>
+                    <div class="skill-item">Data Analysis</div>
+                    <div class="skill-item">HTML & CSS</div>
+                    <div class="skill-item">JavaScript</div>
+                </div>
+            </section>
+
+            <section id="projects" class="glass-card">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project One</h3>
+                        <p>An AI-based prediction model.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project Two</h3>
+                        <p>Data visualization dashboard.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="glass-card">
+                <h2>Contact</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 Personal Profile.</p>
+        </footer>
+    </div>
+</body>
+</html>
